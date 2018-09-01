@@ -8,11 +8,11 @@ public class NRainhasBacktracking {
 		long tempoInicial = System.currentTimeMillis();
 
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("---------- Insira o tamanho da tabela ----------");
+		System.out.println("---------- Insira o tamanho do tabuleiro ----------");
 		int tamanhoTabuleiro = scanner.nextInt();
 		System.out.println("");
 
-		inserirRainha(tamanhoTabuleiro); // No exemplo, um tabuleiro de 4x4
+		inserirRainha(tamanhoTabuleiro);
 
 		long tempoFinal = System.currentTimeMillis() - tempoInicial;
 		System.out.println("O algoritmo foi executado em " + tempoFinal / 1000 + " segundos");
